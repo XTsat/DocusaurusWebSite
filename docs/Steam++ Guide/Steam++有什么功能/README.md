@@ -80,8 +80,6 @@ Steam 游戏成就解锁使用开源项目 [SteamAchievementManager](https://git
 
 - 类似于 `WinAuth` (可以通过导出的方式将 `WinAuth 2步验证` 导入 `Steam++`，使用[开源项目Winauth](https://github.com/winauth/winauth))
 
-  [如何导入steam令牌](Docs/How-To-Import-Steam-Token.md)
-  
   [steam++令牌导入教程](https://keylol.com/t710508-1-1) [(其乐 Keylol)@cyb233](https://keylol.com/suid-988278)
   
   [steam++令牌导入教程](https://www.bilibili.com/read/cv10145839) [(BiliBili)@牛奶君](https://space.bilibili.com/484296)
