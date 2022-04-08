@@ -9,7 +9,7 @@ const config = {
   title: '晓同',
   tagline: '各种指南',
   url: 'https://github.com/XTsat',
-  baseUrl: '/WebSite/',
+  baseUrl: '/DocusaurusWebSite/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'static\img\favicon.ico',
