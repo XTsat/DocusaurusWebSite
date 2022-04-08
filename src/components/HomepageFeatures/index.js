@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('/static/img/steam (2).svg').default,
     description: (
       <>
-        Steam平台指南,个人资料美化教程,平台有用的功能
+        个人资料美化教程,平台有用的功能
       </>
     ),
   },
@@ -17,23 +17,23 @@ const FeatureList = [
     Svg: require('/static/img/Steam++ico.svg').default,
     description: (
       <>
-        Steam++指南 🛠「Steam++」是一个开源跨平台的多功能Steam工具箱。
+        「Steam++🛠」是一个开源跨平台的多功能Steam工具箱。
       </>
     ),
   },
   {
-    title: 'Windows-11-Android-Guide',
+    title: 'windows 11 安卓应用指南',
     Svg: require('/static/img/Android2.svg').default,
     description: (
       <>
-        windows 11 安卓应用指南,教你用最简单的方式给win11安装安卓应用
+        教你用最简单的方式给win11安装安卓应用
       </>
     ),
   },
-  
+
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
