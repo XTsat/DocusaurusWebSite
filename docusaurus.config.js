@@ -48,12 +48,12 @@ const config = {
         title: '晓同',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/top.jpg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'README',
             position: 'left',
             label: '指南',
           },

@@ -4,35 +4,33 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Steam指南',
+    Svg: require('/static/img/steam (2).svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Steam平台指南,个人资料美化教程,平台有用的功能
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Steam++指南',
+    Svg: require('/static/img/Steam++ico.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Steam++指南 🛠「Steam++」是一个开源跨平台的多功能Steam工具箱。
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Windows-11-Android-Guide',
+    Svg: require('/static/img/Android2.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        windows 11 安卓应用指南,教你用最简单的方式给win11安装安卓应用
       </>
     ),
   },
+  
 ];
 
 function Feature({Svg, title, description}) {
