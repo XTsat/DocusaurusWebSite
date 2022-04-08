@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '晓同',
   tagline: '各种指南',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://github.com/XTsat',
   baseUrl: '/WebSite/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
