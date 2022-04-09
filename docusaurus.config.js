@@ -59,7 +59,7 @@ const config = {
           },
           { to: '/blog', label: '博客', position: 'left' },
           {
-            href: 'https://github.com/XTsat',
+            href: 'https://github.com/XTsat/DocusaurusWebSite/',
             label: 'GitHub',
             position: 'right',
           },
