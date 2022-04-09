@@ -1,9 +1,7 @@
 ---
+autoPrev: README
 title: Steam++ 功能介绍
-sidebar_position: 2
 ---
-
-# Steam++ 功能介绍
 
 ## 网络加速 (Support Windows / Linux / macOS / Android)
 

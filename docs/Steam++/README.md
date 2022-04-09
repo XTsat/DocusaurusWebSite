@@ -1,6 +1,5 @@
 ---
-title: Steam++ 指南
-sidebar_position: 1
+autoSort: 1
 ---
 
 # Steam++ 指南
