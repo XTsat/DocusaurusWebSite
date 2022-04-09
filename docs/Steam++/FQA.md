@@ -1,45 +1,20 @@
 ---
-title: Steam++ 指南
-tags:
-  - Steam
-  - Steam工具箱
-  - Game
+title: 常见问题解决办法
+sidebar_position: 3
 ---
 
-[仓库地址 `https://github.com/XTsat/SteamTools-Guide`](https://github.com/XTsat/SteamTools-Guide)
-
-[网页地址 `https://xtsat.github.io/SteamTools-Guide`](https://xtsat.github.io/SteamTools-Guide)
-
-**注意**：此教程具有一定的时效性，截止最后一次更新时间为`2022年3月29日`，steam++ 版本为 `Steam++ x64 v2.6.9 for windows`
-
-## 什么是 Steam++？
-
-🛠「Steam++」是一个开源跨平台的多功能Steam工具箱。
-
-[Steam++ 官网](https://steampp.net/)
-
-[GitHub 开源仓库](https://github.com/SteamTools-Team/SteamTools)
-
-[\[原创发布\]Steam++ 工具箱](https://keylol.com/t667906-1-1) [(其乐 Keylol)@软妹币玩家](https://keylol.com/suid-269966)
-
-## 怎么下载 Steam++
-
-- [GitHub Releases](https://github.com/BeyondDimension/SteamTools/releases)
-- [Gitee Releases](https://gitee.com/rmbgame/SteamTools/releases)
-- [Official WebSite](https://steampp.net)
-- [Arch Linux Package](https://aur.archlinux.org/packages/steam%2B%2B-bin)(By [zhanghua000](https://github.com/zhanghua000))
-
-
-
-## 常见问题解决办法
+# 常见问题解决办法
 
 遇到问题可以先尝试更新到最新版本，可能新版本已经修复了问题
 
 点 `关于` `检查更新` 即可
 
-### 网络问题
+<!-- ![检查更新](./Photo/Home/Setting-Update.png#gh-light-mode-only) -->
+![检查更新](./Photo/Home/Setting-Update-dark.png#gh-dark-mode-only)
 
-#### host 文件相关(只读，拒绝访问，没有权限)
+## 网络问题
+
+### host 文件相关(只读，拒绝访问，没有权限)
 
 - 请前往 `C:\Windows\System32\drivers\etc` ，右击`host`文件，打开 `属性` ，取消下面的 `只读` 选项。
 
@@ -47,7 +22,7 @@ tags:
 
 - 或者通过断网一键修复程序自动重置 host 问题，如 `360断网急救箱` `火绒断网修复`
 
-#### 程序崩溃后无法连接网络
+### 程序崩溃后无法连接网络
 
 - 程序加速过程中崩溃后，社区/游戏服务器无法连接是因为崩溃后写入 `host` 的 `127.0.0.1` 未被正常消除，可以取消加速后重新打开，也可以手动清理掉 `host` 文件
 
@@ -57,6 +32,4 @@ tags:
 >
 >遇到这个问题可以尝试还原hosts文件，关闭windows系统代理，重置网络服务
 
----
-
-[回到目录](#steam-指南)
+![重置 host 文件](./Photo/Home/reset-host-dark.png)
