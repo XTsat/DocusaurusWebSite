@@ -9,7 +9,7 @@ const config = {
   title: '晓同',
   tagline: '各种指南',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/WebSite/',
+  baseUrl: '/DocusaurusWebSite/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'static\img\favicon.ico',
@@ -91,7 +91,7 @@ const config = {
                 href: 'https://steamcommunity.com/id/XTxiaotong',
               },
               {
-                label: '𝖯𝗅𝖺𝗒𝗅𝗂𝗌𝗍 🎵',
+                label: 'Playlist 🎵',
                 href: 'https://music.163.com/#/user/home?id=283588276',
               },
             ],
